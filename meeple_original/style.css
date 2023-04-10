@@ -1,0 +1,750 @@
+@font-face {
+  font-family: 'kokoro';
+  src: url(./fonts/Kokoro.otf) format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'kokoro';
+  color: #2D2D51;
+}
+
+
+
+
+.br-sp {
+  display: none;
+}
+
+.FV-sp {
+  display: none;
+}
+
+.wrap {
+  overflow: hidden;
+}
+
+.map-sp {
+  display: none;
+}
+
+.sp {
+  display: none;
+}
+
+
+.subtitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+span {
+  color: #FF574A;
+}
+
+header {
+  background-color: #F9F2E4;
+  height: 100vh;
+}
+
+.akusento1 {
+  height: 392px;
+  width: 392px;
+  border-radius: 50%;
+  opacity: 65%;
+  position: absolute;
+  z-index: 10;
+}
+
+.a {
+  margin-left: -100px;
+  height: 300px;
+  width: 300px;
+
+}
+
+.b {
+  margin-top: 100px;
+  margin-left: -50px;
+}
+
+.c {
+  margin-top: 1110px;
+  margin-left: -200px;
+}
+
+.d {
+  height: 392px;
+  width: 392px;
+  opacity: 60%;
+  position: absolute;
+  z-index: 10;
+  padding-top: 100px;
+}
+
+.e {
+  height: 390px;
+  width: 200px;
+  opacity: 60%;
+  position: absolute;
+  z-index: 10;
+  padding-top: 500px;
+}
+
+.f {
+  height: 390px;
+  width: 390px;
+  opacity: 60%;
+  position: absolute;
+  z-index: 10;
+  padding-top: 380px;
+}
+.g{
+  display: none;
+}
+
+.akusento_migi {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.bousan {
+  width: 50px;
+  height: 1px;
+  background-color: #FF574A;
+}
+
+
+
+
+
+.fastlogo {
+  font-size: 20px;
+  float: left;
+  margin-left: 50px;
+}
+
+nav {
+  padding-top: 20px;
+}
+
+nav ul {
+  text-align: right;
+  margin-bottom: 80px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-right: 80px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #FF574A;
+}
+
+
+
+
+
+h1 {
+  font-size: 121px;
+  width: 850px;
+  text-align: center;
+  position: absolute;
+  z-index: 30;
+  margin-top: 330px;
+  margin-left: 80px;
+  text-shadow: 4px 3px 10px rgba(45, 45, 81, 0.30);
+  font-weight: normal;
+}
+
+
+h1:before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 65px;
+  height: 3px;
+  background-color: #FF574A;
+}
+
+h1:before {
+  left: 0;
+}
+
+.only:after{
+  content: '';
+  position: absolute;
+  top: 94%;
+  display: inline-block;
+  width: 65px;
+  height: 3px;
+  background-color: #FF574A;
+}
+
+.only:after{
+  right: 3;
+
+}
+
+
+.headerimg {
+  width: 80vw;
+  height: 525px;
+  opacity: 0.75;
+  object-fit: cover;
+  z-index: 20;
+}
+
+.migi {
+  text-align: right;
+}
+
+
+header p {
+  font-size: 40px;
+  text-align: center;
+}
+
+
+/*メニュー*/
+h2 {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 65px;
+}
+
+.menyu-_group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.menyu-_group img {
+  width: 197px;
+  height: 197px;
+  border-radius: 50%;
+}
+
+.menyu-_kuwasiku {
+  margin-left: 20px;
+}
+
+.menyu-_kuwasiku2 {
+  margin-right: 20px;
+}
+
+
+.zukei {
+  background-color: #2D2D51;
+  width: 4px;
+  height: 113px;
+  margin-left: 65px;
+}
+
+.zukei2 {
+  background-color: #2D2D51;
+  width: 4px;
+  height: 113px;
+  margin-right: 75px;
+}
+
+.menyu-_syasinsyu {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.menyu-_syasinsyu img {
+  width: 214px;
+  height: 151px;
+}
+
+.menyu-_syasinsyu1 {
+  margin-right: 15px;
+}
+
+.menyu-_syasinsyu2 {
+  margin-left: 15px;
+}
+
+/*店主*/
+#tensyu {
+  background-color: #F9F2E4;
+  padding-bottom: 30px;
+
+}
+
+h3 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 65px;
+}
+
+.setumei {
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+.setumei p {
+  text-align: left;
+  display: inline-block;
+}
+
+/*こだわり*/
+h4 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 65px;
+  padding-top: 65px;
+}
+
+#kodawari .name {
+  font-size: 38px;
+  margin-bottom: 52px;
+  padding-top: 52px;
+}
+
+#kodawari img {
+  width: 197px;
+  height: 197px;
+  border-radius: 50%;
+  margin-bottom: 70px;
+}
+
+
+.groups {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+.group {
+  width: 310px;
+  height: 605px;
+  background-color: #F9F2E4;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 15px rgba(102, 83, 44, 0.25);
+}
+
+
+
+.setu {
+  width: 213px;
+  text-align: left;
+  display: inline-block;
+}
+
+.tukurikata {
+  width: 970px;
+  height: 332px;
+  background-color: #F9F2E4;
+  box-shadow: 0px 4px 15px rgba(102, 83, 44, 0.25);
+  margin: 0 auto;
+  margin-bottom: 65px;
+}
+
+.name2 {
+  font-size: 38px;
+  padding-top: 32px;
+  margin-left: 32px;
+  margin-bottom: 20px;
+}
+
+.setu2 {
+  margin-left: 77px;
+  font-size: 20px;
+}
+
+
+
+/*店舗情報*/
+#info {
+  background-color: #F9F2E4;
+}
+
+h5 {
+  font-size: 50px;
+  text-align: center;
+  padding-top: 65px;
+}
+
+#info img {
+  width: 507px;
+  height: 348px;
+  margin-right: 15px;
+}
+
+iframe {
+  margin-left: 15px;
+}
+
+.map-pc {
+  z-index: 20;
+}
+
+.syasin {
+  padding-top: 65px;
+  display: flex;
+  justify-content: center;
+}
+
+.kousikisaito {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  padding-bottom: 100px;
+  padding-top: 47px;
+}
+
+.kousikisaito a {
+  text-decoration: none;
+  border-bottom: solid 1px #FF574A;
+}
+
+.kotira {
+  transition: 0.3s;
+}
+
+.kotira:hover {
+  font-size: 35px;
+}
+
+footer {
+  font-size: 16px;
+  background-color: #F9F2E4;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*スマホ版*/
+@media all and (max-width:480px) {
+
+
+  .akusento1 {
+    width: 190px;
+    height: 190px;
+
+  }
+
+  .a {
+    margin-top: 600px;
+    margin-left: -50px;
+
+  }
+
+  .b {
+    margin-top: 380px;
+    margin-left: -100px;
+  }
+
+  .c {
+    margin-top: 1150px;
+    margin-left: -50px;
+    z-index: -1;
+  }
+
+  .d {
+    width: 190px;
+    height: 190px;
+    z-index: -1;
+  }
+
+  .e {
+    width: 120px;
+    height: 190px;
+    z-index: -1;
+    margin-top: 30px;
+    
+  }
+
+  .f {
+    width: 190px;
+    height: 190px;
+    margin-top: -800px;
+    z-index: -1;
+  }
+
+  .g{
+    display: block;
+    width: 190px;
+    height: 190px;
+    margin-top: -200px;
+    margin-left: -100px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .headerimg {
+    display: none;
+  }
+
+  h1 {
+    position: absolute;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-90%);
+    writing-mode: vertical-rl;
+    font-size: 40px;
+    letter-spacing: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  h1::before, h1::after{
+    display: none;
+  }
+
+  header {
+    height: 1000px;
+    position: relative;
+  }
+
+  header p {
+    writing-mode: vertical-rl;
+    font-size: 18px;
+    letter-spacing: 20px;
+
+  }
+
+  .FV-sp {
+    display: block;
+    padding-top: 50px;
+    width: 100vw;
+  }
+
+  .br-sp {
+    display: block;
+    text-indent: 2em;
+  }
+
+  header p {
+    margin: 0 auto;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
+
+
+
+  /*メニュー*/
+  h2 {
+    font-size: 28px;
+  }
+
+  .menyu-_group {
+    justify-content: center;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .menyu-_setu {
+    font-size: 12px;
+    width: 171px;
+  }
+
+  .zukei {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .zukei2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .menyu-_kuwasiku {
+    margin: 0;
+  }
+
+  .menyu-_kuwasiku2 {
+    margin: 0;
+  }
+
+  .migiyosesita {
+    flex-direction: row-reverse;
+  }
+
+
+
+  .menyu-_group img {
+    width: 119px;
+    height: 120px;
+
+  }
+
+  .menyu-_syasinsyu {
+    display: none;
+  }
+
+
+
+
+
+
+
+  /*店主*/
+  h3 {
+    font-size: 28px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+
+  }
+
+  .setumei {
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+
+  /*こだわり*/
+  h4 {
+    font-size: 28px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .group {
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  #kodawari img {
+    margin-bottom: 30px;
+  }
+
+  #kodawari .name {
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  #kodawari .setu {
+    font-size: 16px;
+  }
+
+
+  .tukurikata {
+    width: 300px;
+    height: 450px;
+  }
+
+  #kodawari .name2 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #kodawari .setu2 {
+    font-size: 16px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 20px;
+    line-height: 35px;
+  }
+
+
+  /*店舗情報*/
+  h5 {
+    font-size: 28px;
+    padding-top: 40px;
+  }
+
+  .syasin {
+    display: block;
+    padding-top: 40px;
+  }
+
+  #info img {
+    width: 360px;
+    height: 273px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .kousikisaito {
+    font-size: 18px;
+  }
+
+  .map-sp {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .map-pc {
+    display: none;
+  }
+
+
+}
